@@ -1,7 +1,7 @@
-import { useRouteError } from "react-router-dom";
+import { ErrorResponse, useRouteError } from "react-router-dom";
 
 export const ErrorPage = () => {
-    const error = useRouteError();
+    const error = useRouteError() as Error & ErrorResponse;
     return (
         <div>
             <h1>Oops!</h1>

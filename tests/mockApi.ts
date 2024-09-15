@@ -24,7 +24,7 @@ function generateMockData() {
 const mockData = generateMockData();
 
 export const mockApi = () => setupServer(
-    graphql.query('getCharacters', ({ _, variables }) => {
+    graphql.query('getCharacters', ({ variables }) => {
         const data = variables.searchValue ? mockData.filter(x => x.name.includes(variables.searchValue)) : [...mockData];
         const recordsOnPage = 10;
 
@@ -46,7 +46,7 @@ export const mockApi = () => setupServer(
             },
         })
     }),
-    graphql.query('getCharacter', ({ _, variables }) => {
+    graphql.query('getCharacter', ({ variables }) => {
         const id = variables.id;
         const character = mockData.find(c => c.id === id);
 

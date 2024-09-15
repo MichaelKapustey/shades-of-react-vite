@@ -26,7 +26,9 @@ const router = createBrowserRouter([
     path: "/:id",
     element: <Profile />
   }
-]);
+], {
+  basename: '/shades-of-react-vite'
+});
 
 function App() {
   return (
