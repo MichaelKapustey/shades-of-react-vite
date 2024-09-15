@@ -40,7 +40,10 @@ export const Home = () => {
         'https://rickandmortyapi.com/graphql',
         allCharacters,
         { searchValue: queryKey[1] as string, page: queryKey[2] as number }
-      ),
+      ).catch(err => {
+        console.error(err);
+        return;
+      }),
     placeholderData: (prev) => prev,
   })
 

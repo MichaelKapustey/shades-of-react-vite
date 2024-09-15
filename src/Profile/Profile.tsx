@@ -48,8 +48,11 @@ export const Profile = () => {
                 'https://rickandmortyapi.com/graphql',
                 character,
                 { id: queryKey[1] as string }
-            ),
-        placeholderData: (prev) => prev,
+            ).catch(err => {
+                console.error(err);
+                return;
+            }),
+        placeholderData: (prev) => prev
     })
     return <Page>
         <Typography level='h1'
