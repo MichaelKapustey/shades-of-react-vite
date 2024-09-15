@@ -1,0 +1,177 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyComponent renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <p
+      color="primary"
+      level="h1"
+      startdecorator="[object Object]"
+      textalign="center"
+      variant="solid"
+    >
+      Profile
+    </p>
+    <div
+      sx="[object Object]"
+    >
+      <div
+        direction="row"
+        flexwrap="wrap"
+        spacing="2"
+        sx="[object Object]"
+      >
+        <div
+          color="primary"
+          sx="[object Object]"
+          variant="soft"
+        >
+          <div>
+            <img
+              alt="The Character"
+              src="http://some.png"
+            />
+          </div>
+        </div>
+        <div
+          flexwrap="wrap"
+          spacing="2"
+          sx="[object Object]"
+        >
+          <p
+            level="h2"
+          >
+            The Character
+          </p>
+          <p
+            level="title-lg"
+          >
+            Regular Human
+          </p>
+          <div
+            direction="row"
+            flexwrap="wrap"
+            spacing="3"
+          >
+            <div
+              content="Earth"
+              icon="[object Object]"
+              title="Last known location:"
+            />
+            <div
+              content="Earth"
+              icon="[object Object]"
+              title="Origin:"
+            />
+            <div
+              content="Alive"
+              icon="[object Object]"
+              title="Status:"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        sx="[object Object]"
+      >
+        <p
+          level="title-lg"
+        >
+          Episodes:
+        </p>
+        <p>
+          First Episode, Second Episode
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Profile renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <p
+      color="primary"
+      level="h1"
+      startdecorator="[object Object]"
+      textalign="center"
+      variant="solid"
+    >
+      Profile
+    </p>
+    <div
+      sx="[object Object]"
+    >
+      <div
+        direction="row"
+        flexwrap="wrap"
+        spacing="2"
+        sx="[object Object]"
+      >
+        <div
+          color="primary"
+          sx="[object Object]"
+          variant="soft"
+        >
+          <div>
+            <img
+              alt="The Character"
+              src="http://some.png"
+            />
+          </div>
+        </div>
+        <div
+          flexwrap="wrap"
+          spacing="2"
+          sx="[object Object]"
+        >
+          <p
+            level="h2"
+          >
+            The Character
+          </p>
+          <p
+            level="title-lg"
+          >
+            Regular Human
+          </p>
+          <div
+            direction="row"
+            flexwrap="wrap"
+            spacing="3"
+          >
+            <div
+              content="Earth"
+              icon="[object Object]"
+              title="Last known location:"
+            />
+            <div
+              content="Earth"
+              icon="[object Object]"
+              title="Origin:"
+            />
+            <div
+              content="Alive"
+              icon="[object Object]"
+              title="Status:"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        sx="[object Object]"
+      >
+        <p
+          level="title-lg"
+        >
+          Episodes:
+        </p>
+        <p>
+          First Episode, Second Episode
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

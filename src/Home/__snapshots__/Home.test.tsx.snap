@@ -1,0 +1,118 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <p
+      color="primary"
+      level="h1"
+      textalign="center"
+      variant="solid"
+    >
+      Characters
+    </p>
+    <input
+      placeholder="Type to search"
+      value=""
+    />
+    <div
+      sx="[object Object]"
+    >
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Avatar
+            </th>
+            <th>
+              Name
+            </th>
+            <th>
+              Species
+            </th>
+            <th>
+              Status
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          data-testid="characters-table-body"
+        >
+          <tr>
+            <td>
+              <img
+                alt="Char 1"
+                src="/1.png"
+              />
+            </td>
+            <td>
+              <p
+                level="body-sm"
+                sx="[object Object]"
+                to="/undefined"
+                variant="plain"
+              >
+                Char 1
+              </p>
+            </td>
+            <td>
+              <p
+                level="body-sm"
+                variant="plain"
+              >
+                Human
+              </p>
+            </td>
+            <td>
+              <p
+                level="body-sm"
+                variant="plain"
+              >
+                Alive
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                alt="Char 2"
+                src="/2.png"
+              />
+            </td>
+            <td>
+              <p
+                level="body-sm"
+                sx="[object Object]"
+                to="/undefined"
+                variant="plain"
+              >
+                Char 2
+              </p>
+            </td>
+            <td>
+              <p
+                level="body-sm"
+                variant="plain"
+              >
+                Alien
+              </p>
+            </td>
+            <td>
+              <p
+                level="body-sm"
+                variant="plain"
+              >
+                Dead
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      current="1"
+      total="1"
+    />
+  </div>
+</DocumentFragment>
+`;
