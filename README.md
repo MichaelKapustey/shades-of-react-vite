@@ -13,9 +13,10 @@ Other libraries used:
 - @testing-library/react: for testing
 
 ## Development
-
 `npm run dev` to start dev server.
+
 `npm run codegen` to generate graphql related files. Run it every time you've changed or written new gql query
+
 `npm run test` to run tests
 
 check `package.json` for more
