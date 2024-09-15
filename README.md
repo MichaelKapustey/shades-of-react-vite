@@ -1,6 +1,7 @@
 # Shades Of React - Vite
 
 ## Overview
+See it in action: https://michaelkapustey.github.io/shades-of-react-vite
 
 This project is using `vite` as a base library for building react single page application.
 Other libraries used:
